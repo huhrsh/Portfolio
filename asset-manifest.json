@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.93789539.css",
+    "main.js": "/portfolio/static/js/main.a3e3ec01.js",
+    "static/media/BlissDemo.mp4": "/portfolio/static/media/BlissDemo.ffe5488dcd79f5285c78.mp4",
+    "static/media/bg.mp4": "/portfolio/static/media/bg.a773041f8ee25443d35f.mp4",
+    "static/media/bg1.mp4": "/portfolio/static/media/bg1.7b262e78bb70cfacacbc.mp4",
+    "static/media/CN_BackEnd_CertificateOfExcellence_page-0001.jpg": "/portfolio/static/media/CN_BackEnd_CertificateOfExcellence_page-0001.e606b30ebf7f1a26a3eb.jpg",
+    "static/media/CN_AdvancedFrontEnd_CertificateOfExcellence_page-0001.jpg": "/portfolio/static/media/CN_AdvancedFrontEnd_CertificateOfExcellence_page-0001.181e02179b98482ef75c.jpg",
+    "static/media/CN_FrontEnd_CertificateOfExcellence_page-0001.jpg": "/portfolio/static/media/CN_FrontEnd_CertificateOfExcellence_page-0001.a8cc81799538bcac2a31.jpg",
+    "static/media/bliss-india.png": "/portfolio/static/media/bliss-india.f9126b20308e23ac6434.png",
+    "static/media/peter-gargiulo-cGNCepznaV8-unsplash.jpg": "/portfolio/static/media/peter-gargiulo-cGNCepznaV8-unsplash.b7d6c8c96bf3ff1c878d.jpg",
+    "static/media/CN_BackEnd_CertificateOfCompletion_page-0001.jpg": "/portfolio/static/media/CN_BackEnd_CertificateOfCompletion_page-0001.4f6b4d19b2ffe4c18812.jpg",
+    "static/media/CN_FrontEnd_CertificateOfCompletion_page-0001.jpg": "/portfolio/static/media/CN_FrontEnd_CertificateOfCompletion_page-0001.8c36828052fc85694fee.jpg",
+    "static/media/joshua-sukoff-57G2uAtnsRw-unsplash.jpg": "/portfolio/static/media/joshua-sukoff-57G2uAtnsRw-unsplash.e361a905f639fb46a787.jpg",
+    "static/media/CN_AdvancedFrontEnd_CertificateOfCompletion-1.png": "/portfolio/static/media/CN_AdvancedFrontEnd_CertificateOfCompletion-1.caa4d5ba4f99ea56e6e9.png",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/Certificate_page-0001.jpg": "/portfolio/static/media/Certificate_page-0001.96ca8715407c7981d7b9.jpg",
+    "static/media/error.png": "/portfolio/static/media/error.dfdbfd17f10651c76129.png",
+    "static/media/LeagueSpartan-VariableFont_wght.ttf": "/portfolio/static/media/LeagueSpartan-VariableFont_wght.373d611ec44856608b96.ttf",
+    "static/media/bg.png": "/portfolio/static/media/bg.0221aab885fb8d50ca3b.png",
+    "static/media/FrameAsset 4.png": "/portfolio/static/media/FrameAsset 4.edf5b02aade7b7443eae.png",
+    "static/media/Captura-HeavyDemo.ttf": "/portfolio/static/media/Captura-HeavyDemo.409db7f13ed84a24444f.ttf",
+    "index.html": "/portfolio/index.html",
+    "main.93789539.css.map": "/portfolio/static/css/main.93789539.css.map",
+    "main.a3e3ec01.js.map": "/portfolio/static/js/main.a3e3ec01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93789539.css",
+    "static/js/main.a3e3ec01.js"
+  ]
+}
