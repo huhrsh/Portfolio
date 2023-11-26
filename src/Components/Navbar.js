@@ -1,38 +1,43 @@
 import { NavLink, Outlet } from "react-router-dom"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import '../Styles/Navbar.css'
-import bg from '../Assets/bg.mp4'
+import bg from '../Assets/bg1.mp4'
 import {PacmanLoader} from 'react-spinners'
 
 function Navbar(){
 
-    const [loading, setLoading]=useState(false);
+    const [loading, setLoading]=useState(true);
 
-
-
+    // useEffect(()=>{
+    //     setTimeout(()=>{
+    //         setLoading(true);
+    //     },1000)
+    // },[loading])
 
     return (
         <>
         {!loading?
             <>
                     <div className="navbar-spinner">
-                        <PacmanLoader color="#333" loading={!loading} size={20} />
+                        <PacmanLoader color="#fff" loading={!loading} size={20} />
                     </div>
-                    <video autoPlay='true' loop muted preload='auto' onCanPlayThrough={()=>{setLoading(!loading)}}>
+                    {/* <video autoPlay='true' loop muted preload='auto' onCanPlayThrough={()=>{setLoading(!loading)}}>
                         <source src={bg}/>
-            </video>
+                    </video> */}
             </>
            : <>
             <header>
-                <NavLink activeClassName="active" className="header-link" to="/Lokis-Resume/">Home</NavLink>
-                <NavLink activeClassName="active" className="header-link" to="/Lokis-Resume/education">Education</NavLink>
-                <NavLink activeClassName="active" className="header-link" to="/Lokis-Resume/work-experience">Work Experience</NavLink>
-                <NavLink activeClassName="active" className="header-link" to="/Lokis-Resume/skills">Skills</NavLink>
-                <NavLink activeClassName="active" className="header-link" to="/Lokis-Resume/contacts">Contacts</NavLink>
+                <NavLink activeClassName="active" className="header-link" to="/portfolio/">Home</NavLink>
+                <NavLink activeClassName="active" className="header-link" to="/portfolio/education">Education</NavLink>
+                {/* <NavLink activeClassName="active" className="header-link" to="/portfolio/work-experience">Work Experience</NavLink> */}
+                <NavLink activeClassName="active" className="header-link" to="/portfolio/projects">Projects</NavLink>
+                <NavLink activeClassName="active" className="header-link" to="/portfolio/certifications">Certifications</NavLink>
+                <NavLink activeClassName="active" className="header-link" to="/portfolio/skills">Skills</NavLink>
+                <NavLink activeClassName="active" className="header-link" to="/portfolio/contacts">Contacts</NavLink>
             </header>
-            <video autoPlay='true' loop muted preload='auto'>
+            {/* <video autoPlay='true' loop muted preload='auto'>
                         <source src={bg}/>
-            </video>
+            </video> */}
             <Outlet/>
             </>
         }

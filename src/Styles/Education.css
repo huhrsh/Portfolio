@@ -4,32 +4,44 @@
     /* min-height: 90vh; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
-    padding: 5% 0 5% 10%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 0 0 0 10%;
     overflow: hidden;
 }
 
 .education-div{
     /* background-color: red; */
+    min-height: 30vh;
     width: 90%;
     padding: 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-image: url('../Assets/white-texture.jpg');
-    background-size: contain; */
     border-radius: 5px;
 }
 
-.institute{
-    font-size: 1.6rem;
-    font-weight: 600;
-    z-index: 2 !important;
+.edu-left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.course,.edu-right{
+.institute{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.affiliated{
     font-size: 1.2rem;
+    font-weight: 400;
+    color: #aaa;
+}
+
+.course,.edu-right,.score{
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 /* .hat-div{

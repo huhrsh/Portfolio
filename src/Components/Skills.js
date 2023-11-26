@@ -3,21 +3,24 @@ import "../Styles/Skills.css";
 
 function Skills() {
   const [skills, setSkills] = useState([
-    "Team Lead",
-    "Time Optimization",
-    "Automated repetitive tasks using Power Query ad SQL",
-    "Microsoft Excel, Macros and VBA",
-    "Power Query, SQL",
-    "Presentation and facilitation skills",
-    "Financial forecasting and budgeting",
-    "Analytical Skills",
-    "Data gathering ability and eye for detail",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "MongoDB",
+    "ExpressJS",
+    "ReactJS",
+    "NodeJS",
+    // "PassportJS",
+    "Firebase",
+    "AWS Basics",
+    "Redux",
+    "C++"
   ]);
 
   const [visibleSkills, setVisibleSkills] = useState([]);
 
   useEffect(() => {
-    const delay = 1000; // Adjust the delay between each line
+    const delay = 500; // Adjust the delay between each line
     const timeouts = skills.map((skill, index) => {
       return setTimeout(() => {
         setVisibleSkills((prevVisibleSkills) => [...prevVisibleSkills, skill]);

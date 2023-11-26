@@ -1,0 +1,64 @@
+.certifications-main{
+    min-height: 90vh;
+    /* background-color: #44444495; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4%;
+    gap: 2%;
+    justify-content: space-evenly;
+}
+
+.certificate-box{
+    width: 47%;
+    /* background-color: red; */
+    height: auto;
+    margin-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4%;
+    height: 70vh;
+}
+
+.certificate-top{
+    width: 85%;
+    display: flex;
+    background-color: white;
+    height: auto;
+}
+
+.certificate-frame{
+    width: 100%;
+    aspect-ratio: 4.135/3;
+    background-image: url('../Assets/Certificates/FrameAsset\ 4.png');
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate-image{
+    height: 88%;
+}
+
+.certificate-bottom{
+    height: 20%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4%;
+}
+
+.certificate-name{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ddd;
+}
+
+.certificate-type{
+    font-size: 1.3rem;
+    font-weight: 400;
+}

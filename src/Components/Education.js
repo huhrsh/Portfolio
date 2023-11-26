@@ -6,14 +6,17 @@ function Education(){
 
     const [educationDetails, setEducationDetails]=useState([
     {
-        institute:"Institute of Chartered Accountants of India",
-        course:null,
-        year:"March 2021"
+        institute:"Maharaja Surajmal Institute of Technology",
+        affiliated:"(affiliated to Guru Gobind Singh Indraprastha University, Delhi)",
+        course:"Bachelor of Technology in Computer Science and Engineering",
+        year:"2021-2025",
+        marks:"CGPA: 9.137 (till 4th semester)"
     },
     {
-        institute:"D.B.R.A.U University, Agra",
-        course:"Bachelor of Commerce, Accounting",
-        year:"June 2015"
+        institute:"Amity International School, Mayur Vihar",
+        course:"All India Senior School Certificate Examination",
+        year:"2021 graduate",
+        marks:"Score: 97.6%"
     }
     ]);
 
@@ -21,17 +24,20 @@ function Education(){
         <>
             <main className="education-main">
                 {educationDetails.map((item,index)=>(
-                    <div className='education-div animate__animated animate__fadeInUp' key={index}>
+                    <div className='education-div animate__animated animate__fadeIn' key={index}>
                         <div className='edu-left'>
-                            {/* <div className='hat-div'>
-                                <img src={hat} alt='degree hat' />
-                            </div> */}
                             <div className='institute'>
                                 {item.institute}
                             </div>
+                            {item.affiliated!=null?<div className='affiliated'>
+                                {item.affiliated}
+                            </div>:<></>}
                             {item.course!=null?<div className='course'>
                                 {item.course}
                             </div>:<></>}
+                            <div className='score'>
+                                {item.marks}
+                            </div>
                         </div>
                         <div className='edu-right'>
                             {item.year}

@@ -8,15 +8,17 @@
   src: url('./Assets/Montserrat-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: "spartan";
+  src: url('./Assets/LeagueSpartan-VariableFont_wght.ttf');
+}
+
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: #333;
-  /* font-family: poppins  !important;
-  font-family: "raleway"  !important; */
+  color: #ccc;
   font-family: montserrat !important;
-
 }
 
 html::-webkit-scrollbar {
@@ -24,20 +26,34 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb {
-  background-color: #666;
-  border-radius: 2px;
+  background-color: #ccc;
+  border-radius: 1px;
 }
 
 html::-webkit-scrollbar-track {
-  background-color: #ddd;
+  background-color: #000;
 }
 
-video{
+/* video{
   position: fixed;
   z-index: -1;
   width: 100%;
-  opacity: 0.25;
   position: fixed;
+  display: none;
   left: 0;
   top: 10vh;
+} */
+
+html{
+  scroll-behavior: smooth;
+  background-color: #000;
+  background: url('../src/Assets/bg.png');
+  background: url('../src/Assets/peter-gargiulo-cGNCepznaV8-unsplash.jpg');
+  /* background: url('../src/Assets/marcel-strauss-lRIMRLE9SOk-unsplash.jpg'); */
+  background: url('../src/Assets/joshua-sukoff-57G2uAtnsRw-unsplash.jpg');
+  /* background: url('../src/Assets/solid-concrete-wall-textured-backdrop.jpg'); */
+  /* background: url('../src/Assets/'); */
+  /* background: url('../src/Assets/'); */
+  background-size: cover;
+  background-attachment: fixed;
 }

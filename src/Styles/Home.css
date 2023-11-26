@@ -6,7 +6,7 @@
 
 .home-main .home-left{
   height: 90%;
-  width: 60%;
+  width: 80%;
   /* background-color: rebeccapurple; */
   display: flex;
   flex-direction: column;
@@ -15,29 +15,37 @@
 }
 
 .home-main .home-left .greeting-name .name{
-  font-size: 5.3rem;
+  font-size: 6.3rem;
   font-weight: 600;
+  text-transform: uppercase;
   word-spacing: 2rem;
-  color: #333;
+  letter-spacing: 0.5rem;
+  color: #eee;
+  font-family: "montserrat" !important;
   /* font-family: "raleway"  !important; */
 }
 
 .home-main .home-left .greeting-name .job{
-  font-size: 1.5rem;
-  padding-left: 1%;
+  font-size: 2rem;
+  margin-top: -1%;
   word-spacing: 1rem;
   /* background-color: aliceblue; */
-  font-weight: 400;
-  color: #555;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  font-family: montserrat !important;
+  /* text-transform: uppercase; */
+  font-weight: 200;
+  color: #ccc;
 }
 
 .home-main .home-left .profile{
   /* background-color: antiquewhite; */
-  width: 82%;
-  font-size: 1.23rem;
-  word-spacing: 0.3rem;
+  width: 90%;
+  font-weight: 300;
+  font-size: 1.437rem;
   text-align: justify;
-  line-height: 1.7rem;
+  text-align: center;
+  line-height: 2.2rem;
 }
 
 .home-main .home-right{
@@ -49,19 +57,6 @@
   align-items: center;
   justify-content: center;
 }
-
-@keyframes rotateSkew {
-  from{
-      transform: rotate(0deg);
-  }
-  50%{
-      scale: 1 1.2;
-  }
-  to{
-      transform: rotate(360deg);
-  }
-}
-
 
 .home-main .home-right .photo-frame{
   width: 65%;

@@ -3,34 +3,61 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 4vh;
+    flex-wrap: wrap;
+    gap: 5vh;
     padding: 2%;
     padding-left: 12%;
     padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .contact-div{
     /* background-color: red; */
     /* padding: 2%; */
     height: 10vh;
+    width: 40vw;
     display: flex;
     align-items: center;
 }
 
 .contact-left{
-    width: 10%;
-    /* background-color: aliceblue; */
+    height: 100%;
+    width: 15%;
+    /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .contact-left>img{
-    width: 35%;
+    background-color: #fff;
+    /* width: 80%; */
+    height: 80%;
+    aspect-ratio: 1;
+    object-fit: contain;
+    padding: 7%;
+    border-radius: 4px;
 }
 
 .contact-right>a{
     text-decoration: none;
-    color: #333;
-    font-size: 1.2rem;
+    color: #ccc;
+    font-family: raleway !important;
+    font-weight: 400;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.contact-right>a::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    background-color: #eee;
+    bottom: -2px;
+    transition: all ease-in-out 0.3s;
+}
+
+.contact-right>a:hover::before{
+    width: 100%;
 }
