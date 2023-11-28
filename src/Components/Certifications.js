@@ -13,9 +13,10 @@ import acquisition from "../Assets/Certificates/AWS acquisition.jpg"
 import job from '../Assets/Certificates/AWS Job.jpg'
 import cloud from "../Assets/Certificates/AWS Cloud.jpg"
 import foundation from "../Assets/Certificates/AWS Foundations.jpg"
+import { toast } from "react-toastify";
 
 function Certifications(){
-    const [count,setCount]=useState(0);
+    const [count, setCount]=useState(0);
     const [loading,setLoading]=useState(false);
     const [certificates,setCertificates]=useState(
         [
@@ -102,13 +103,25 @@ function Certifications(){
 
             }));
 
-            Promise.all(images).then(() => setLoading(true));
+            Promise.all(images).then(() => {
+                setLoading(true);
+            });
         }, [certificates]);
+
+        useEffect(() => {
+            let timeout;
+            if (!loading) {
+                timeout = setTimeout(() => {
+                    // setCount((prevCount) => prevCount + 1);
+                    toast(`Image loading is taking time..`);
+                }, 4000);
+            }
+            return () => clearTimeout(timeout);
+        }, [loading]);
 
     return(
         <>
-            <main className="certifications-main">
-            
+            <main className="certifications-main">  
             {!loading?             
                     <div className="home-spinner">
                         <PacmanLoader color="#fff" loading={!loading} size={20} />

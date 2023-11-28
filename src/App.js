@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './App.css';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { Navbar } from './Components/Navbar';
 import { Home } from './Components/Home';
 import { Education } from './Components/Education';

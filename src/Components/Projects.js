@@ -3,6 +3,7 @@ import { useState,useEffect } from 'react';
 import  BlissIndiaImage from '../Assets/bliss-india.png';
 import { PacmanLoader } from 'react-spinners';
 import BlissDemo from '../Assets/BlissDemo.mp4'
+import { toast } from 'react-toastify';
 
 function Projects(){
 
@@ -82,6 +83,17 @@ function Projects(){
     useEffect(() => {
         console.log('Option changed:', option);
       }, [option]); 
+
+      useEffect(() => {
+        let timeout;
+        if (!loading) {
+            timeout = setTimeout(() => {
+                // setCount((prevCount) => prevCount + 1);
+                toast(`Image loading is taking time..`);
+            }, 4000);
+        }
+        return () => clearTimeout(timeout);
+    }, [loading]);
 
     return(
         <>

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import '../Styles/Navbar.css'
 import bg from '../Assets/bg1.mp4'
 import {PacmanLoader} from 'react-spinners'
+import { ToastContainer } from "react-toastify"
 
 function Navbar(){
 
@@ -16,6 +17,7 @@ function Navbar(){
 
     return (
         <>
+      <ToastContainer/>
         {!loading?
             <>
                     <div className="navbar-spinner">
