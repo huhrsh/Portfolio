@@ -13,6 +13,16 @@
   src: url('./Assets/LeagueSpartan-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: "Raleway";
+  src: url('./Assets/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: "Amsterdam";
+  src: url("./Assets/Amsterdam.ttf");
+}
+
 *{
   box-sizing: border-box;
   padding: 0;

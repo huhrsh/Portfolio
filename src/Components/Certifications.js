@@ -8,6 +8,11 @@ import backEndCompletion from '../Assets/Certificates/CN_BackEnd_CertificateOfCo
 import backEndExcellence from '../Assets/Certificates/CN_BackEnd_CertificateOfExcellence_page-0001.jpg'
 import cpp from '../Assets/Certificates/Certificate_page-0001.jpg'
 import { PacmanLoader } from "react-spinners";
+import billing from "../Assets/Certificates/AWS Billing.jpg"
+import acquisition from "../Assets/Certificates/AWS acquisition.jpg"
+import job from '../Assets/Certificates/AWS Job.jpg'
+import cloud from "../Assets/Certificates/AWS Cloud.jpg"
+import foundation from "../Assets/Certificates/AWS Foundations.jpg"
 
 function Certifications(){
     const [count,setCount]=useState(0);
@@ -56,6 +61,36 @@ function Certifications(){
                 img: cpp,
                 title: "Data Structures and Algorithm in C++",
             },
+            {
+                url: "https://drive.google.com/file/d/1lRQydPEb2ptLwwo93m30psFChq9Hvcj5/view?usp=sharing",
+                altText: "Certificate of Completion",
+                img: job,
+                title: "Job Roles in the Cloud",
+            },
+            {
+                url: "https://drive.google.com/file/d/1ynI4dIcD6xntPcNu94cAXfNygx-xI6Cy/view?usp=sharing",
+                altText: "Certificate of Completion",
+                img: cloud,
+                title: "AWS Cloud Practitioner Essentials",
+            },
+            {
+                url: "https://drive.google.com/file/d/1j9EWG1s2hkkED8GM4Lb6Cf2sxiJ3wxXQ/view?usp=sharing",
+                altText: "Certificate of Completion",
+                img: acquisition,
+                title: "Getting Started with Cloud Acquisition",
+            },
+            {
+                url: "https://drive.google.com/file/d/1Kp-Bpj15LVtVPEMCP1mnNbCZM65OzGSt/view?usp=drive_link",
+                altText: "Certificate of Completion",
+                img: foundation,
+                title: "AWS Foundations: Getting Started with the AWS Cloud Essentials",
+            },
+            {
+                url: "https://drive.google.com/file/d/1_Z3yG7QkRbBrqhe5QegReS19JcVtpG8f/view?usp=sharing",
+                altText: "Certificate of Completion",
+                img: billing,
+                title: "AWS Billing and Cost Management",
+            },
         ]);
 
         useEffect(() => {
@@ -82,7 +117,7 @@ function Certifications(){
             <>
                 {certificates.map((item,index)=>(
                     <>
-                        {index===6?<>
+                        {index>=6?<>
                             <div className="certificate-box animate__animated animate__fadeIn" key={index}>
                             <a href={item.url}  target="_blank" className="certificate-top">
                                 <div className="certificate-frame">
