@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.93789539.css",
-    "main.js": "/portfolio/static/js/main.a3e3ec01.js",
+    "main.css": "/portfolio/static/css/main.eb2aaa8c.css",
+    "main.js": "/portfolio/static/js/main.5e69f21d.js",
     "static/media/BlissDemo.mp4": "/portfolio/static/media/BlissDemo.ffe5488dcd79f5285c78.mp4",
     "static/media/bg.mp4": "/portfolio/static/media/bg.a773041f8ee25443d35f.mp4",
     "static/media/bg1.mp4": "/portfolio/static/media/bg1.7b262e78bb70cfacacbc.mp4",
@@ -14,19 +14,26 @@
     "static/media/CN_FrontEnd_CertificateOfCompletion_page-0001.jpg": "/portfolio/static/media/CN_FrontEnd_CertificateOfCompletion_page-0001.8c36828052fc85694fee.jpg",
     "static/media/joshua-sukoff-57G2uAtnsRw-unsplash.jpg": "/portfolio/static/media/joshua-sukoff-57G2uAtnsRw-unsplash.e361a905f639fb46a787.jpg",
     "static/media/CN_AdvancedFrontEnd_CertificateOfCompletion-1.png": "/portfolio/static/media/CN_AdvancedFrontEnd_CertificateOfCompletion-1.caa4d5ba4f99ea56e6e9.png",
+    "static/media/AWS Foundations.jpg": "/portfolio/static/media/AWS Foundations.cd6889133fec6bdf7bc9.jpg",
+    "static/media/AWS Billing.jpg": "/portfolio/static/media/AWS Billing.a3f132e5997d5471fef6.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/Raleway-VariableFont_wght.ttf": "/portfolio/static/media/Raleway-VariableFont_wght.e14d84ccec6be3ff19e3.ttf",
     "static/media/Certificate_page-0001.jpg": "/portfolio/static/media/Certificate_page-0001.96ca8715407c7981d7b9.jpg",
+    "static/media/AWS acquisition.jpg": "/portfolio/static/media/AWS acquisition.dcc6f43ba66946b7d304.jpg",
+    "static/media/AWS Cloud.jpg": "/portfolio/static/media/AWS Cloud.42c9a25355fe6eb4c7bd.jpg",
+    "static/media/AWS Job.jpg": "/portfolio/static/media/AWS Job.9cf6eca173d0ec13f5ef.jpg",
     "static/media/error.png": "/portfolio/static/media/error.dfdbfd17f10651c76129.png",
     "static/media/LeagueSpartan-VariableFont_wght.ttf": "/portfolio/static/media/LeagueSpartan-VariableFont_wght.373d611ec44856608b96.ttf",
+    "static/media/Amsterdam.ttf": "/portfolio/static/media/Amsterdam.dc9a6a533039b3fa2d32.ttf",
     "static/media/bg.png": "/portfolio/static/media/bg.0221aab885fb8d50ca3b.png",
     "static/media/FrameAsset 4.png": "/portfolio/static/media/FrameAsset 4.edf5b02aade7b7443eae.png",
     "static/media/Captura-HeavyDemo.ttf": "/portfolio/static/media/Captura-HeavyDemo.409db7f13ed84a24444f.ttf",
     "index.html": "/portfolio/index.html",
-    "main.93789539.css.map": "/portfolio/static/css/main.93789539.css.map",
-    "main.a3e3ec01.js.map": "/portfolio/static/js/main.a3e3ec01.js.map"
+    "main.eb2aaa8c.css.map": "/portfolio/static/css/main.eb2aaa8c.css.map",
+    "main.5e69f21d.js.map": "/portfolio/static/js/main.5e69f21d.js.map"
   },
   "entrypoints": [
-    "static/css/main.93789539.css",
-    "static/js/main.a3e3ec01.js"
+    "static/css/main.eb2aaa8c.css",
+    "static/js/main.5e69f21d.js"
   ]
 }
