@@ -24,9 +24,9 @@ function ErrorPage() {
     return (
         <>
             <main className="error-main">
-            <video autoPlay loop muted preload='auto' className="error-video">
+            {/* <video autoPlay loop muted preload='auto' className="error-video">
                     <source src={bg}/>
-                </video>
+                </video> */}
                 {!imageLoaded ? (
                     <div className="spinner-container">
                         <PacmanLoader color="#333" loading={!imageLoaded} size={20} />

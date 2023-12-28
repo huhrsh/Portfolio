@@ -29,12 +29,15 @@ function Home(){
                                 <h2 className='job'>Web Developer</h2>
                             </div>
                             <div className='profile'>
+                            Passionate third-year Computer Science and Engineering student excelling in web development, adept at breaking down complex challenges into creative and high-quality solutions, driven by a commitment to continuous learning and a strong problem-solving mindset.
+                            </div>
+                            {/* <div className='profile'>
                             I am a third-year undergraduate student pursuing a B.Tech in Computer Science and Engineering, 
                             deeply passionate about web development. 
                             I excel in breaking down complex challenges into manageable solutions, 
                             driven by a commitment to continuous learning and a strong problem-solving mindset. 
                             My goal is to deliver high-end results through a combination of technical skills and creativity. 
-                            </div>
+                            </div> */}
                         </div>
             {/* <div className='home-right'>
                 <div className='photo-frame'>

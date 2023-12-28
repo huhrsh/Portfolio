@@ -30,7 +30,7 @@ function Skills() {
     return () => {
       timeouts.forEach((timeout) => clearTimeout(timeout));
     };
-  }, [skills]);
+  }, []);
 
   return (
     <>

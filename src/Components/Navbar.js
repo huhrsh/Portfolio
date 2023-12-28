@@ -2,6 +2,7 @@ import { NavLink, Outlet } from "react-router-dom"
 import { useEffect, useState } from "react"
 import '../Styles/Navbar.css'
 import bg from '../Assets/bg1.mp4'
+import bgv from '../Assets/bgv2.mp4'
 import {PacmanLoader} from 'react-spinners'
 import { ToastContainer } from "react-toastify"
 
@@ -37,9 +38,9 @@ function Navbar(){
                 <NavLink activeClassName="active" className="header-link" to="/portfolio/skills">Skills</NavLink>
                 <NavLink activeClassName="active" className="header-link" to="/portfolio/contacts">Contacts</NavLink>
             </header>
-            {/* <video autoPlay='true' loop muted preload='auto'>
-                        <source src={bg}/>
-            </video> */}
+            <video className="bg-video" autoPlay='true' loop muted preload='auto'>
+                        <source src={bgv}/>
+            </video>
             <Outlet/>
             </>
         }

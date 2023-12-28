@@ -15,34 +15,42 @@
 }
 
 .home-main .home-left .greeting-name .name{
-  font-size: 6.3rem;
+  font-size: 7.3rem;
   font-weight: 600;
   text-transform: uppercase;
   word-spacing: 2rem;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.9rem;
   color: #eee;
   font-family: "montserrat" !important;
+  /* font-family: "Outfit Thin" !important; */
+  /* font-family: "afacad" !important; */
+  /* font-family: "Mulish ExtraLight" !important; */
   /* font-family: "raleway"  !important; */
 }
 
 .home-main .home-left .greeting-name .job{
   font-size: 2rem;
-  margin-top: -1%;
+  /* text-shadow: 0 0 10px #eee; */
+  /* margin-top: -1%; */
   word-spacing: 1rem;
   /* background-color: aliceblue; */
   text-align: center;
   letter-spacing: 0.4rem;
   font-family: montserrat !important;
-  /* text-transform: uppercase; */
-  font-weight: 200;
-  color: #ccc;
+  /* font-family: 'Mulish Thin' !important;
+  font-family: 'quciksand' !important; */
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #ddd;
 }
 
 .home-main .home-left .profile{
+  /* text-shadow: 0 0 10px #eee; */
+  color: #ccc;
   /* background-color: antiquewhite; */
   width: 90%;
   font-weight: 300;
-  font-size: 1.437rem;
+  font-size: 1.52rem;
   text-align: justify;
   text-align: center;
   line-height: 2.2rem;
