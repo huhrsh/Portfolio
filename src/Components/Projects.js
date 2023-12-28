@@ -89,7 +89,7 @@ function Projects(){
         if (!loading) {
             timeout = setTimeout(() => {
                 // setCount((prevCount) => prevCount + 1);
-                toast(`Image loading is taking is taking slighty longer time..`);
+                toast(`Loading media...`);
             }, 4000);
         }
         return () => clearTimeout(timeout);
