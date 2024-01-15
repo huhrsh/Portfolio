@@ -90,7 +90,7 @@ function Projects(){
             timeout = setTimeout(() => {
                 // setCount((prevCount) => prevCount + 1);
                 toast(`Loading media...`);
-            }, 4000);
+            }, 2000);
         }
         return () => clearTimeout(timeout);
     }, [loading]);
