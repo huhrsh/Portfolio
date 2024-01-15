@@ -24,7 +24,7 @@ function Navbar(){
                     <div className="navbar-spinner">
                         <PacmanLoader color="#fff" loading={!loading} size={20} />
                     </div>
-                    <video autoPlay='true' loop muted preload='auto' onCanPlayThrough={()=>{setLoading(!loading)}}>
+                    <video className="bg-video" autoPlay='true' loop muted preload='auto' onCanPlayThrough={()=>{setLoading(!loading)}}>
                         <source src={bgv}/>
                     </video>
             </>
