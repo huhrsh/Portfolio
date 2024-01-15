@@ -114,7 +114,8 @@ function Certifications(){
                 timeout = setTimeout(() => {
                     // setCount((prevCount) => prevCount + 1);
                     toast(`Loading images...`);
-                }, 4000);
+                }, 10);
+                // }, 4000);
             }
             return () => clearTimeout(timeout);
         }, [loading]);

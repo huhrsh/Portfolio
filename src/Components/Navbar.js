@@ -8,7 +8,7 @@ import { ToastContainer } from "react-toastify"
 
 function Navbar(){
 
-    const [loading, setLoading]=useState(true);
+    const [loading, setLoading]=useState(false);
 
     // useEffect(()=>{
     //     setTimeout(()=>{
@@ -18,15 +18,15 @@ function Navbar(){
 
     return (
         <>
-      <ToastContainer/>
+      <ToastContainer theme="dark"/>
         {!loading?
             <>
                     <div className="navbar-spinner">
                         <PacmanLoader color="#fff" loading={!loading} size={20} />
                     </div>
-                    {/* <video autoPlay='true' loop muted preload='auto' onCanPlayThrough={()=>{setLoading(!loading)}}>
-                        <source src={bg}/>
-                    </video> */}
+                    <video autoPlay='true' loop muted preload='auto' onCanPlayThrough={()=>{setLoading(!loading)}}>
+                        <source src={bgv}/>
+                    </video>
             </>
            : <>
             <header>

@@ -122,7 +122,7 @@ function Projects(){
                         </div>
                         <div className='project-video-section'>
                             <h2 className='project-video-heading'>Video Demonstration</h2>
-                            <video className='project-video' controls>
+                            <video className='project-video' controls preload='true'>
                                 <source src={option.video} type='video/mp4'/>
                                 Your browser does not support this video tag
                             </video>
