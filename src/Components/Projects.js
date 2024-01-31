@@ -48,19 +48,20 @@ function Projects(){
             image.onload = () => resolve();
         }));
 
-        const videos = projects.map((project) => new Promise((resolve) => {
-            const video = document.createElement('video');
-            if(project.video===""){
-                resolve();
-            }
-            // console.log(project.video);
-            video.src = project.video;
-            video.onloadeddata = () => {
-                // console.log(`Video loaded: ${project.video}`);
-                resolve()};
-        }));
+        // const videos = projects.map((project) => new Promise((resolve) => {
+        //     const video = document.createElement('video');
+        //     if(project.video===""){
+        //         resolve();
+        //     }
+        //     // console.log(project.video);
+        //     video.src = project.video;
+        //     video.onloadeddata = () => {
+        //         // console.log(`Video loaded: ${project.video}`);
+        //         resolve()};
+        // }));
 
-        const allMedia = [...images, ...videos];
+        const allMedia = [...images];
+        // const allMedia = [...images, ...videos];
 
         Promise.all(allMedia).then(() => setLoading(true));
     }, [projects]);

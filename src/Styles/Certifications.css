@@ -29,6 +29,8 @@
 }
 
 .certificate-frame{
+    box-shadow: 0 0px 12px 0px rgba(255, 217, 0, 0.547);
+    /* box-shadow: 0 0px 15px 0px rgba(255, 255, 255, 0.547); */
     width: 100%;
     aspect-ratio: 4.135/3;
     background-image: url('../Assets/Certificates/FrameAsset\ 4.png');
