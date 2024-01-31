@@ -1,7 +1,7 @@
 import '../Styles/Projects.css'
 import { useState,useEffect } from 'react';
 import  BlissIndiaImage from '../Assets/bliss-india.png';
-import { PacmanLoader } from 'react-spinners';
+import { BarLoader } from 'react-spinners';
 import BlissDemo from '../Assets/BlissDemo.mp4'
 import { toast } from 'react-toastify';
 
@@ -100,7 +100,7 @@ function Projects(){
         <>
         <main className='projects-main'>
         {loading===false?<div className="home-spinner">
-                        <PacmanLoader color="#fff" loading={!loading} size={20} />
+                        <BarLoader color="#fff" loading={!loading} size={20} />
                     </div>:
                     <>
                 <section className='project-nav'>

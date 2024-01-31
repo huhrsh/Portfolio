@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import '../Styles/Navbar.css'
 import bg from '../Assets/bg1.mp4'
 import bgv from '../Assets/bgv2.mp4'
-import {PacmanLoader} from 'react-spinners'
+import {BarLoader} from 'react-spinners'
 import { ToastContainer } from "react-toastify"
 
 function Navbar(){
@@ -22,7 +22,7 @@ function Navbar(){
         {!loading?
             <>
                     <div className="navbar-spinner">
-                        <PacmanLoader color="#fff" loading={!loading} size={20} />
+                        <BarLoader color="#fff" loading={!loading} size={20} />
                     </div>
                     <video className="bg-video" autoPlay='true' loop muted preload='auto' onCanPlayThrough={()=>{setLoading(!loading)}}>
                         <source src={bgv}/>

@@ -7,7 +7,7 @@ import frontEndExcellence from '../Assets/Certificates/CN_FrontEnd_CertificateOf
 import backEndCompletion from '../Assets/Certificates/CN_BackEnd_CertificateOfCompletion_page-0001.jpg'
 import backEndExcellence from '../Assets/Certificates/CN_BackEnd_CertificateOfExcellence_page-0001.jpg'
 import cpp from '../Assets/Certificates/Certificate_page-0001.jpg'
-import { PacmanLoader } from "react-spinners";
+import { BarLoader } from "react-spinners";
 import billing from "../Assets/Certificates/AWS Billing.jpg"
 import acquisition from "../Assets/Certificates/AWS acquisition.jpg"
 import job from '../Assets/Certificates/AWS Job.jpg'
@@ -125,7 +125,7 @@ function Certifications(){
             <main className="certifications-main">  
             {!loading?             
                     <div className="home-spinner">
-                        <PacmanLoader color="#fff" loading={!loading} size={20} />
+                        <BarLoader color="#fff" loading={!loading} size={20} />
                     </div>
                     :
             <>

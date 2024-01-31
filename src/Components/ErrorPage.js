@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { PacmanLoader } from "react-spinners";
+import { BarLoader } from "react-spinners";
 import '../Styles/ErrorPage.css'
 import error from '../Assets/error.png'
 import bg from '../Assets/bg.mp4'
@@ -29,7 +29,7 @@ function ErrorPage() {
                 </video> */}
                 {!imageLoaded ? (
                     <div className="spinner-container">
-                        <PacmanLoader color="#333" loading={!imageLoaded} size={20} />
+                        <BarLoader color="#333" loading={!imageLoaded} size={20} />
                     </div>
                 ) : (
                     <>

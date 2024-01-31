@@ -1,6 +1,6 @@
 import '../Styles/Home.css'
 import { useState,useEffect } from 'react';
-import {PacmanLoader} from 'react-spinners'
+import {BarLoader} from 'react-spinners'
 
 function Home(){
 
@@ -19,7 +19,7 @@ function Home(){
         <main className='home-main'>
         {!imageLoaded ? (
                     <div className="home-spinner">
-                        <PacmanLoader color="#fff" loading={!imageLoaded} size={20} />
+                        <BarLoader color="#fff" loading={!imageLoaded} size={20} />
                     </div>
                 ) : (
                     <>
