@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
-import './App.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Navbar } from './Components/Navbar';
@@ -15,7 +14,7 @@ import { ErrorPage } from './Components/ErrorPage';
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/portfolio/",
+      path: "/",
       element: <Navbar />,
       children: [
         {index: true, element: <Home/>},

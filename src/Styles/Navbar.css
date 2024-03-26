@@ -3,7 +3,6 @@ header{
     justify-content: space-evenly;
     align-items: center;
     padding: 1.5% 10% 1% 10%;
-
     /* padding: 1% 0% 1% 0;
     width: 80%;
     margin: auto;
@@ -34,7 +33,26 @@ header{
     /* transform: scale(0); */
 }
 
+.lol::before{
+    content: "";
+    height: 100%;
+    width: 0%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    position: absolute;
+    /* background-color: #000; */
+    bottom: 0px;
+    left: 0px;
+    z-index:  -1;
+    transform-origin: bottom left;
+    transition: all ease-in-out 0.3s;  
+    /* transform: scale(0); */
+}
 
+.lol:hover::before{
+    width: 100%;
+    /* transform: scaleX(1); */
+}
 .header-link:hover::before{
     width: 99%;
     /* transform: scaleX(1); */
@@ -54,10 +72,26 @@ header{
     left: 1px;
     transform: scaleX(1);
 }
+.active-lol{
+    position: relative;
+}
+
+.active-lol::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* background-color: #000; */
+    /* bottom: -2px; */
+    /* border: none !important; */
+    left: 0px;
+    transform: scaleX(1);
+}
 
 
 .navbar-spinner{
-    position: absolute;
-    top: 45vh;
-    left: 47vw;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
 }

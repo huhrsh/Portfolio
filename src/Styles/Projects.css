@@ -10,9 +10,10 @@
 .project-nav{
     /* margin-top: 15vh; */
     height: 50vh;
+    width: 90%;
     /* background-color: red; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -38,8 +39,6 @@
     padding-top: 1%;
     /* background: #0f323a; */
     text-decoration: none;
-    font-family: Raleway !important;
-    font-family:'Amsterdam' !important;
     font-size: 2.2rem;
     padding-bottom: 8.5%;
     font-weight: 500;
@@ -47,6 +46,19 @@
     z-index: 1;
     color: transparent;
     transition: all ease-out 0.3s;
+}
+
+.Bliss{
+    font-family: Raleway !important;
+    font-family:'Amsterdam' !important;
+}
+
+.PrintEasy{
+    font-size: 3.2rem;
+    font-weight: 400;
+    font-family:'Afacad' !important;
+    /* font-family:'Montserrat' !important; */
+
 }
 
 .nav::before{
@@ -83,7 +95,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16vh;
+    gap: 12vh;
 }
 
 .project-heading{
@@ -101,6 +113,13 @@
 
 #bliss{
     font-family: "Amsterdam" !important;
+    /* background-color: red; */
+}
+
+#printeasy{
+    font-family: "Afacad" !important;
+    font-size: 4.5rem;
+    font-weight: 400;
     /* background-color: red; */
 }
 
@@ -167,10 +186,27 @@
     line-height: 5vh;
 }
 
+.tech-list>li{
+    text-transform: capitalize;
+}
+
 .tech-heading{
     /* text-transform: uppercase; */
     font-weight: 500;
     color: #ddd;
+}
+
+.github-link{
+    /* background-color: red; */
+    display: flex;
+    margin-top: -6%;
+    align-items: center;
+    font-size: 1.2rem;
+    /* text-decoration: none; */
+}
+
+.github-link img{
+    width: 30px;
 }
 
 .challenge-list>li{

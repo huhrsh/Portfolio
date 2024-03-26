@@ -1,4 +1,4 @@
-.contacts-main{
+/* .contacts-main{
     height: 90vh;
     width: 100%;
     display: flex;
@@ -12,8 +12,7 @@
 }
 
 .contact-div{
-    /* background-color: red; */
-    /* padding: 2%; */
+
     height: 10vh;
     width: 40vw;
     display: flex;
@@ -23,7 +22,6 @@
 .contact-left{
     height: 100%;
     width: 15%;
-    /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,13 +29,12 @@
 
 .contact-left>img{
     background-color: #fff;
-    /* width: 80%; */
     height: 80%;
     aspect-ratio: 1;
     object-fit: contain;
     padding: 7%;
     border-radius: 4px;
-}
+} */
 
 .contact-right>a{
     text-decoration: none;

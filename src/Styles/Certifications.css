@@ -1,17 +1,15 @@
-.certifications-main{
+/* .certifications-main{
     min-height: 90vh;
-    /* background-color: #44444495; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 4%;
     gap: 2%;
     justify-content: space-evenly;
-}
+} */
 
-.certificate-box{
+/* .certificate-box{
     width: 47%;
-    /* background-color: red; */
     height: auto;
     margin-bottom: 10vh;
     display: flex;
@@ -19,17 +17,17 @@
     flex-direction: column;
     gap: 4%;
     height: 70vh;
-}
+} */
 
-.certificate-top{
+/* .certificate-top{
     width: 85%;
     display: flex;
     background-color: white;
     height: auto;
-}
+} */
 
 .certificate-frame{
-    box-shadow: 0 0px 12px 0px rgba(255, 217, 0, 0.547);
+    /* box-shadow: 0 0px 12px 0px #ffd9008b; */
     /* box-shadow: 0 0px 15px 0px rgba(255, 255, 255, 0.547); */
     width: 100%;
     aspect-ratio: 4.135/3;
@@ -39,14 +37,13 @@
     align-items: center;
     justify-content: center;
 }
-
+/* 
 .certificate-image{
     height: 88%;
 }
 
 .certificate-bottom{
     min-height: 20%;
-    /* background-color: green; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -65,4 +62,4 @@
     font-size: 1.3rem;
     font-weight: 400;
     text-align: center;
-}
+} */
