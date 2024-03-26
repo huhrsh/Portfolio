@@ -195,7 +195,7 @@
 import { useState, useEffect } from 'react';
 import { BarLoader } from 'react-spinners';
 import BlissIndiaImage from '../Assets/bliss-india.png';
-import BlissDemo from '../Assets/BlissDemo.mp4';
+import BlissDemo from '../Assets/BlissDemo2.mp4';
 import PrintDemo from '../Assets/PrintDemo.mp4';
 import PrintEasyImage from '../Assets/PrintEasy.png';
 import { toast } from 'react-toastify';
