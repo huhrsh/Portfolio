@@ -20,6 +20,7 @@ import pandas from "../Assets/Certificates/Harsh Jain - Pandas.png"
 import python from "../Assets/Certificates/Harsh Jain - Python.png"
 import elt from "../Assets/Certificates/Harsh Jain-ELT.jpg"
 import { toast } from "react-toastify";
+import cyber from "../Assets/Certificates/Harsh_Jain_3758931_page-0001.jpg"
 import frame from '../Assets/Certificates/FrameAsset 4.png'
 
 function Certifications() {
@@ -157,6 +158,14 @@ function Certifications() {
                 title: "Design Committee Member @ IEEE MSIT",
                 type: 'ex'
             },
+            {
+                // url: "https://drive.google.com/file/d/1Y4XnZKtJ-nKfErUulfNLvbxfzjaU5b0J/view?usp=sharing",
+                url: "https://drive.google.com/file/d/1pGATKUs7LV1zWuvYI8h8Y2Cr4lgetVFR/view?usp=sharing",
+                altText: "Certificate",
+                img: cyber,
+                title: "Cyber Security Course",
+                type: 'cy'
+            },
         ]);
 
     useEffect(() => {
@@ -222,11 +231,12 @@ function Certifications() {
                                     {typ == 'py' && "Python"}
                                     {/* {typ == 'ml' && "Machine Learning"} */}
                                     {typ == 'ex' && "Extra Curricular"}
+                                    {typ == 'cy' && "Cyber Security"}
                                 </div>
                             ))}
                         </div>
                         <div className="w-4/5 ml-72 p-6 px-12 grid grid-flow-row grid-cols-12 gap-12
-                        max-sm:w-screen max-sm:ml-0 max-sm:px-6
+                        max-sm:w-screen max-sm:ml-0 max-sm:px-6 
                         " >
                             {certificates.map((item, index) => (
                                     (item.type == type | type=='all' ) ?
